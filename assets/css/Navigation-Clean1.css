@@ -213,7 +213,7 @@ div.singleimage img {
   max-height: 600px;
 }
 
-div.singleimage p {
+div.singleimage-controls p {
   max-width: 980px;
   margin-left: auto;
   margin-right:auto;
@@ -349,17 +349,23 @@ label {
   font-size:.9em;
 }
 
-.singleimage ul li img {
-  max-width: 40px;
+div.singleimage-controls {
+  margin-left: 120px;
+  margin-right: 200px;
 }
 
-.singleimage ul li {
+.singleimage-controls ul li img {
+  padding-top:13px;
+  max-height: 3em;
+}
+
+.singleimage-controls ul li {
   list-style-type: none;
   float:right;
   overflow: none;
 }
 
-.singleimage p {
+.singleimage-controls p {
 font-family: Proxima Nova;
 }
 
