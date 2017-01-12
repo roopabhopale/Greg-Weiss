@@ -208,10 +208,6 @@ div.newsimage img {
   padding-bottom: 30px;
 }
 
-.border img {
-border: 1px solid black;
-}
-
 div.singleimage img {
   max-width: 980px;
   max-height: 600px;
